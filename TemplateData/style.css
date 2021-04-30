@@ -1,0 +1,192 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&family=Work+Sans:ital,wght@0,100;0,600;0,900;1,100;1,200;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;500;600&display=swap');
+
+@font-face{
+	src: url(../BlackwoodCastleShadow.ttf);
+	font-family: 'Blackwood';
+}
+
+body{ 
+	padding: 0; margin: 0;
+	background-image: url(../TemplateData/images/Background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+
+.container{
+	width: 50%;	
+	margin: 0 auto;
+}
+
+h1{
+	font-family: 'Blackwood', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: rgb(223, 213, 216);
+	padding-top: 3%;
+	font-size: 3.45em;
+	display: flex;
+}
+
+h2{
+	font-family: 'Karantina','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: salmon;
+	padding-top: 3%;
+	font-size: 1.45em;
+	display: flex;
+}
+
+.controlImage{
+	margin-top: 40%;
+	background: rgba(44, 144, 171, 0.55);	
+	border-radius: 13px;	
+	padding-left: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border: 8px solid whitesmoke;
+}
+
+
+hr{
+ 	color: rgb(223, 213, 216);
+}
+
+li {
+	list-style-type: none;
+}
+
+.memberList {
+	z-index: 0;
+	margin-top: 4%;
+	padding: 20px;
+	background: rgb(240, 240, 240, 0.73);
+	border-radius: 13px;
+	margin-bottom: 12%;
+}
+
+.member{
+	display: flex;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+
+.member p{
+	padding-top: 2%;
+	padding-left: 2%;
+	width: 18%;
+	font-family: 'Dosis', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 800;
+	color: indianred;
+}
+.portrait {
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;	
+	background-size: cover;
+}
+
+.tm{
+	background-image: url(../TemplateData/images/chrispic.png);
+}
+
+.tm1{
+	background-image: url(../TemplateData/images/image1.png);
+}
+
+
+.tm2{
+	background-image: url(../TemplateData/images/IMG_0120.png);	
+}
+
+
+.tm3{
+	background-image: url(../TemplateData/images/image0.png);
+}
+
+.tm4{
+	background-image: url(../TemplateData/images/mPhoto.png);
+}
+
+
+.tm5{
+	background-image: url(../TemplateData/images/image2.png);
+}
+
+
+.socialIcons {
+	display: flex;
+
+}
+
+.socialIcons a{
+
+	padding-right: 30%;
+}
+
+.wixSite{
+	padding-top: 5%;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.wixSite a, .wixSite a:visited{
+	border: 1px solid black;
+	color: #5d4954;
+	border-radius:  5px;
+	padding:  0.89em;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.wixSite a:hover, .wixSite a:active:hover{
+	transition-duration: 0.32s;
+	color: aliceblue;
+	background-color: #5d4954;
+	border: 1px solid aliceblue;
+}
+
+#unity-container { position: absolute;
+z-index: 1}
+#unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }
+#unity-container.unity-mobile { width: 100%; height: 100% }
+#unity-canvas { background: #231F20 }
+.unity-mobile #unity-canvas { width: 100%; height: 100% }
+#unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none }
+#unity-logo { width: 154px; height: 130px; background: url('unity-logo-dark.png') no-repeat center }
+#unity-progress-bar-empty { width: 141px; height: 18px; margin-top: 10px; background: url('progress-bar-empty-dark.png') no-repeat center }
+#unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-dark.png') no-repeat center }
+#unity-footer { position: relative }
+.unity-mobile #unity-footer { display: none }
+#unity-webgl-logo { float:left; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
+#unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
+#unity-fullscreen-button { float: right; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
+#unity-mobile-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
+
+
+@media screen and (max-width: 1700px){
+	.memberList{
+		padding-top: 15%;
+	}
+}
+
+@media screen and (max-width: 1500px){
+	.memberList{
+		padding-top: 15%;
+	}
+}
+
+
+@media screen and (max-width: 1064px){
+  h1{
+	  font-size: 2.8em;
+  }
+
+  .memberList{
+	padding-top: 55%;
+  }
+}
